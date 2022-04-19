@@ -58,6 +58,7 @@ header {
 
 .icon-hamburger {
   position: absolute;
+  transition: all ease-in-out 0.1s;
 }
 
 .icon-hamburger.show {
@@ -71,6 +72,7 @@ header {
 .icon-close.show {
   opacity: 1;
   z-index: 100;
+  transition: all ease-in-out 0.5s;
 }
 
 .menu {
@@ -156,11 +158,13 @@ li {
 .features-arrow-up.show,
 .company-arrow-up.show {
   opacity: 1;
+  transition: all ease-in-out 0.5s;
 }
 
 .features-arrow-down.show,
 .company-arrow-down.show {
   opacity: 0;
+  transition: all ease-in-out 0.5s;
 }
 
 .sign-in {
